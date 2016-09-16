@@ -1,0 +1,6 @@
+C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\bin\Debug\ReplaceDuplicateMemberForXML.exe.config
+C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\bin\Debug\ReplaceDuplicateMemberForXML.exe
+C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\bin\Debug\ReplaceDuplicateMemberForXML.pdb
+C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\obj\Debug\RenameDuplicateMember.csprojResolveAssemblyReference.cache
+C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\obj\Debug\ReplaceDuplicateMemberForXML.exe
+C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\obj\Debug\ReplaceDuplicateMemberForXML.pdb
