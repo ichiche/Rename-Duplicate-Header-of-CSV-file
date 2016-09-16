@@ -4,3 +4,9 @@ C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDupl
 C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\obj\Debug\RenameDuplicateMember.csprojResolveAssemblyReference.cache
 C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\obj\Debug\ReplaceDuplicateMemberForXML.exe
 C:\GitHub\Rename-Duplicate-Column-from-CSV-file\RenameDuplicateMember\RenameDuplicateMember\obj\Debug\ReplaceDuplicateMemberForXML.pdb
+C:\Users\whisper\Documents\GitHub\Rename-Duplicate-Header-of-CSV-file\RenameDuplicateMember\bin\Debug\ReplaceDuplicateMemberForXML.exe.config
+C:\Users\whisper\Documents\GitHub\Rename-Duplicate-Header-of-CSV-file\RenameDuplicateMember\obj\Debug\ReplaceDuplicateMemberForXML.exe
+C:\Users\whisper\Documents\GitHub\Rename-Duplicate-Header-of-CSV-file\RenameDuplicateMember\obj\Debug\ReplaceDuplicateMemberForXML.pdb
+C:\Users\whisper\Documents\GitHub\Rename-Duplicate-Header-of-CSV-file\RenameDuplicateMember\bin\Debug\ReplaceDuplicateMemberForXML.exe
+C:\Users\whisper\Documents\GitHub\Rename-Duplicate-Header-of-CSV-file\RenameDuplicateMember\bin\Debug\ReplaceDuplicateMemberForXML.pdb
+C:\Users\whisper\Documents\GitHub\Rename-Duplicate-Header-of-CSV-file\RenameDuplicateMember\obj\Debug\RenameDuplicateMember.csprojResolveAssemblyReference.cache

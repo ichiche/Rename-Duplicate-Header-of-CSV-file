@@ -19,7 +19,7 @@ namespace RenameDuplicateMember
             }
         }
 
-        static void ReplaceDuplicateMember(string fileName, string[] csvContent)
+        static void Rename(string fileName, string[] csvContent)
         {
             string[] firstColumnArray = csvContent[0].Split(',');
             Dictionary<string, int> duplicatedColumn = new Dictionary<string, int>();
@@ -55,7 +55,7 @@ namespace RenameDuplicateMember
 
             //Export output to CSV
             csvContent[0] = string.Join(",", firstColumnArray);
-            Console.WriteLine("Complete File : {0}", fileName.Substring((fileName.IndexOf("CSV\\") + 4)) + "\n");
+            Console.WriteLine("- Complete File : {0}", fileName.Substring((fileName.IndexOf("CSV\\") + 4)) + "\n");
             ExportAsCsv(fileName, csvContent);  			
         }
 
@@ -76,11 +76,12 @@ namespace RenameDuplicateMember
                 {
                     if (fileName.Contains(".csv"))
                     {
-                        Console.WriteLine("Loading : " + fileName);
+                        var shortFileName = Path.GetFileName(fileName); 
+                        Console.WriteLine("- Loading : " + shortFileName);
                         string[] csvContent = File.ReadAllLines(fileName);
 
                         CheckOccurrence(fileName, csvContent);
-                        ReplaceDuplicateMember(fileName, csvContent);
+                        Rename(fileName, csvContent);
                     }
                 }
             }
