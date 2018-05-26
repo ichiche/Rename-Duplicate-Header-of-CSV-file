@@ -10,15 +10,15 @@ For instance, below content is captured from CSV file, and some of the column na
 
 In other words, we need to remain the content , but the column name has to be renamed.
 
-Check_Id Check_Id Grade Type Grade Rank Name URL URL
-
-1 2 A Item Credit	Local User Check5315.html	Check5315fix.html
+| Id | Id | Grade | Type | Grade | Rank | Name | URL | URL |
+| -- | -- | ----- | ---- | ----- | ---- | ---- | --- | --- |
+| 1 | 2 | A | Item | Credit | Local | User | Check5315.html | Check5315fix.html |
 
 
 ---
 
 The result of the program is stated below:
 
-Check_Id1 Check_Id2 Grade1 Type Grade2 Rank Name URL1 URL2
-
-1 2 A Item Credit	Local User Check5315.html	Check5315fix.html
+| Id1 | Id2 | Grade1 | Type | Grade2 | Rank | Name | URL1 | URL2 |
+| -- | -- | ----- | ---- | ----- | ---- | ---- | --- | --- |
+| 1 | 2 | A | Item | Credit | Local | User | Check5315.html | Check5315fix.html |
