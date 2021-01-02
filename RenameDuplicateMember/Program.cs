@@ -10,6 +10,7 @@ namespace RenameDuplicateMember
     {
         static void CheckOccurrence(string fileName, string[] csvContent)
         {
+            //Check First Line of CSV File
             string[] firstLineArr = csvContent[0].Split(',');
 
             var groups = firstLineArr.GroupBy(item => item);
