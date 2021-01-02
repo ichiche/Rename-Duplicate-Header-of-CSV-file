@@ -31,9 +31,10 @@ namespace RenameDuplicateMember
                 {
                     for (int j = i + 1; j < firstColumnArray.Length; j++)
                     {
-                        if (firstColumnArray[i].Equals(firstColumnArray[j]) && !(duplicatedColumn.ContainsKey(firstColumnArray[i])))
+                        if (firstColumnArray[i].Equals(firstColumnArray[j]))
                         {
                             duplicatedColumn.Add(firstColumnArray[i], 1);
+                            break;
                         }
                     }                  
                 }
@@ -47,6 +48,7 @@ namespace RenameDuplicateMember
                 {
                     if (duplicatedColumn.ElementAt(index).Key.Equals(firstColumnArray[j]))
                     {
+                        //Add a Number as a suffix to Header
                         firstColumnArray[j] += count;
                         count++;
                     }
